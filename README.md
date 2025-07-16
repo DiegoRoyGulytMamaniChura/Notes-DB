@@ -1,4 +1,4 @@
-# Caso Netflix
+# CASO NETFLIX
 
 ## Modelamiento de dato
 
