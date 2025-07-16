@@ -4,16 +4,22 @@ Este proyecto simula el modelamiento y diseño de una base de datos transacciona
 
 ---
 
-## 📌 1. Requisitos y Análisis
+📌 1. Requisitos y Análisis 
 
 El primer paso fue identificar los requisitos funcionales y no funcionales del sistema, así como los principales actores y entidades del negocio.
+
+<details>
+<summary>📷 Ver imagen del caso Netflix (haz clic para desplegar)</summary>
 
 ![Requisitos - Task Netflix](https://raw.githubusercontent.com/DiegoRoyGulytMamaniChura/Notes-DB/main/task_netflix.PNG)
 
 *Figura 1: Caso Netflix*
 
+</details>
+
 ---
 
+    
 ## 🧠 2. Diseño Conceptual
 
 En esta fase se representaron las entidades, atributos y relaciones mediante un modelo **Entidad-Relación (E-R)**. También se aplicó la **normalización** para evitar redundancias. Puedes usar páginas como **dbdiagram.io** o **Draw.io**.
@@ -24,10 +30,15 @@ En esta fase se representaron las entidades, atributos y relaciones mediante un 
 - Reglas de negocio
 - Normalización hasta 3FN
 - Identificación de claves primarias y foráneas
-
+  
+<details>
+<summary>📷 Ver imagen del diseño conceptual (haz clic para desplegar)</summary>
+    
 ![Diseño Conceptual](https://raw.githubusercontent.com/DiegoRoyGulytMamaniChura/Notes-DB/main/conceptual_design.PNG)
-
+    
 *Figura 2: Modelo Entidad-Relación del caso Netflix (draw.io)*
+
+</details>
 
 ---
 
@@ -35,9 +46,14 @@ En esta fase se representaron las entidades, atributos y relaciones mediante un 
 
 En esta etapa se transformó el modelo conceptual a un modelo relacional, definiendo tablas, tipos de datos, claves primarias y foráneas.
 
+<details>
+<summary>📷 Ver imagen del diseño lógico (haz clic para desplegar)</summary>  
+    
 ![Diseño Lógico](https://raw.githubusercontent.com/DiegoRoyGulytMamaniChura/Notes-DB/main/logical_design.PNG)
 
 *Figura 3: Modelo Entidad-Relación del caso Netflix (MySQL Workbench)*
+
+</details>
 
 ---
 
@@ -45,7 +61,8 @@ En esta etapa se transformó el modelo conceptual a un modelo relacional, defini
 
 > 📌 En esta sección se incluirá el script SQL completo con la creación de tablas, constraints, inserciones de datos y relaciones. *(Próximamente)*
 
-Puedes ver los scripts SQL en la carpeta [`/scripts`](https://github.com/DiegoRoyGulytMamaniChura/Notes-DB/tree/main/scripts) del repositorio.
+Puedes ver el script SQL completo de creación de tablas y relaciones en el archivo [`schema.sql`](https://github.com/DiegoRoyGulytMamaniChura/Notes-DB/blob/main/scripts/schema.sql), ubicado en la carpeta `scripts/` del repositorio.
+
 
 ---
 
@@ -66,6 +83,10 @@ Estudiante e interesado en bases de datos, análisis de datos y modelamiento de 
 
 ## Blocks of code
 
+
+<details>
+<summary>Ver código SQL (haz clic para desplegar)</summary>
+    
 ```
 CREATE DATABASE IF NOT EXISTS db_movie_netflix_transact_2;
 USE db_movie_netflix_transact_2;
