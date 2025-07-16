@@ -1,25 +1,66 @@
-# CASO NETFLIX
+# 🎬 Caso Netflix – Proyecto de Base de Datos
 
-## Modelamiento de dato
+Este proyecto simula el modelamiento y diseño de una base de datos transaccional para una plataforma similar a Netflix. Incluye todas las fases: requisitos, diseño conceptual, diseño lógico y diseño físico.
 
+---
 
-### Requisitos y análisis
-![Conceptual Design](https://raw.githubusercontent.com/DiegoRoyGulytMamaniChura/Notes-DB/main/task_netflix.PNG)
+## 📌 1. Requisitos y Análisis
 
+El primer paso fue identificar los requisitos funcionales y no funcionales del sistema, así como los principales actores y entidades del negocio.
 
-### Diseño conceptual
+![Requisitos - Task Netflix](https://raw.githubusercontent.com/DiegoRoyGulytMamaniChura/Notes-DB/main/task_netflix.PNG)
 
-* Modelado entidad-relación (E-R)
-* Normalización
-* Item 2a
+*Figura 1: Caso Netflix*
 
-![Conceptual Design](https://raw.githubusercontent.com/DiegoRoyGulytMamaniChura/Notes-DB/main/conceptual_design.PNG)
+---
 
+## 🧠 2. Diseño Conceptual
 
-### Diseño lógico
-![Conceptual Design](https://raw.githubusercontent.com/DiegoRoyGulytMamaniChura/Notes-DB/main/logical_design.PNG)
+En esta fase se representaron las entidades, atributos y relaciones mediante un modelo **Entidad-Relación (E-R)**. También se aplicó la **normalización** para evitar redundancias. Puedes usar páginas como **dbdiagram.io** o **Draw.io**.
 
-### Diseño físico
+### 📌 Elementos del diseño conceptual:
+
+- Modelo Entidad-Relación (E-R)
+- Reglas de negocio
+- Normalización hasta 3FN
+- Identificación de claves primarias y foráneas
+
+![Diseño Conceptual](https://raw.githubusercontent.com/DiegoRoyGulytMamaniChura/Notes-DB/main/conceptual_design.PNG)
+
+*Figura 2: Modelo Entidad-Relación del caso Netflix (draw.io)*
+
+---
+
+## 🧮 3. Diseño Lógico
+
+En esta etapa se transformó el modelo conceptual a un modelo relacional, definiendo tablas, tipos de datos, claves primarias y foráneas.
+
+![Diseño Lógico](https://raw.githubusercontent.com/DiegoRoyGulytMamaniChura/Notes-DB/main/logical_design.PNG)
+
+*Figura 3: Modelo Entidad-Relación del caso Netflix (MySQL Workbench)*
+
+---
+
+## 🧾 4. Diseño Físico
+
+> 📌 En esta sección se incluirá el script SQL completo con la creación de tablas, constraints, inserciones de datos y relaciones. *(Próximamente)*
+
+Puedes ver los scripts SQL en la carpeta [`/scripts`](https://github.com/DiegoRoyGulytMamaniChura/Notes-DB/tree/main/scripts) del repositorio.
+
+---
+
+## 📚 Contenido Relacionado
+
+- `conceptual_design.PNG`: Modelo E-R
+- `logical_design.PNG`: Modelo relacional
+- `task_netflix.PNG`: Requisitos del sistema
+
+---
+
+## 🧑‍💻 Autor
+
+**DrMach**  
+Estudiante e interesado en bases de datos, análisis de datos y modelamiento de sistemas.
 
 
 
