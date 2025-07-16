@@ -1,13 +1,27 @@
-# Notes-DB
-Contiene información que puede ser importante al momento de trabajar con base de datos
+# Caso Netflix
 
-Para crear un modelo lógico de base de datos antes de usar codigo en SQL
-*Draw.io (no necesitas código)
-*DBdiagram.io (puedes visualizar tú código con esta página)
+## Modelamiento de dato
 
 
--Diseño conceptual
-Son tablas que contienen entidades, atributos y relaciones
--Modelo lógico
-Uso de sql
+### Requisitos y análisis
+### Diseño conceptual
+
+* Modelado entidad-relación (E-R)
+* Normalización
+* Item 2a
+
+![This is an alt text.](/DiegoRoyGulytMamaniChura/Notes-DB/blob/main/bee.jpg")
+
+### Diseño lógico
+![This is an alt text.](/DiegoRoyGulytMamaniChura/Notes-DB/blob/main/bee.jpg")
+### Diseño físico
+
+
+
+## Blocks of code
+
+```
+let message = 'Hello world';
+alert(message);
+```
 
